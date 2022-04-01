@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rates</title>
+    <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+    <div class="baseData">
+        <label>Base Currency</label>
+        <select id="baseCurrency"></select>
+        <input type="number" inputmode="numeric" id="baseCurrencyValue" value="1" />
+    </div>
+    <div class="quoteData">
+        <label>Quote Currency</label>
+        <select id="quoteCurrency"></select>
+        <input type="number" inputmode="numeric" id="quoteCurrencyValue" />
+    </div>
+</body>
+
+</html>
+<!-- Arch
+base currency   -  quote currency
+eur             -  usd                  selectable (not same on both)
+
+history(upto 5)
+2(history)
+3(random)
+ -->
